@@ -5,8 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 
-# TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7308876379:AAFb42hU7ul4j9vHVkofK84vBvlag00yB9k")
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7342156400:AAHg7D7pt8cdlATo0tQ1sVCNyaeZkcI2osE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7308876379:AAFb42hU7ul4j9vHVkofK84vBvlag00yB9k")
 APP_ID = int(os.environ.get("APP_ID", "22518295"))
 API_HASH = os.environ.get("API_HASH", "4ec4789e7af4207606a3d087923899f1")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002156410201"))
@@ -20,8 +19,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 OWNER_TAG = "Savoryrabbit"
-#6773748306
-ADMINS = [5695568361, 7179528076, 5618890876, 1077671360, 860596271]
+ADMINS = [5695568361, 7179528076, 5618890876, 6773748306, 860596271]
 TIME = int(os.environ.get("TIME", "60"))
 
 try:
